@@ -1,5 +1,4 @@
-// import fs from 'fs'
-const fs = require('fs')
+import fs from 'fs'
 
 const data = fs.readFileSync('data.txt', 'utf8').toString().trim().split('\r\n')
 
